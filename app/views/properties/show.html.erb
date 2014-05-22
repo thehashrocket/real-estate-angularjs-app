@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Businessname:</strong>
+  <%= @property.businessName %>
+</p>
+
+<p>
+  <strong>Streetaddress:</strong>
+  <%= @property.streetAddress %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @property.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @property.state %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @property.zip %>
+</p>
+
+<%= link_to 'Edit', edit_property_path(@property) %> |
+<%= link_to 'Back', properties_path %>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="realEstateApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Real Estate Property Management</title>
+  <%= stylesheet_link_tag("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css") %>
+  <%= stylesheet_link_tag("application") %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div class="container">
+
+    <%= render "shared/navigation" %>
+
+
+
+  <%= yield %>
+
+</div>
+
+</body>
+
+</html>
