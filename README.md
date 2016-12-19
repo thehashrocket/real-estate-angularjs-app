@@ -12,7 +12,7 @@ Real Estate Property Manager app using Rails, AngularJS
  - [Slim 2.0.1](http://slim-lang.com/)
  - [Sass 3.2.10](http://sass-lang.com/)
  - [Karma 0.10.2](http://karma-runner.github.io/)
- - [Jasmine 1.3.1](http://pivotal.github.io/jasmine/)
+ - [Jasmine 1.3.1](https://jasmine.github.io/)
  - [editablespan](https://github.com/mkwidzinska/editablespan)
  - [ui-sortable](https://github.com/angular-ui/ui-sortable)
 
